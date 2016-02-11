@@ -1,0 +1,21 @@
+/*  all variable */
+@color-font : red;
+@putih : white;
+
+/*  section */
+h1 {
+	color : @putih;
+	background-color : @color-font;
+}
+
+/*  nested less */
+.hello {
+	background-color : white;
+	color : @color-font;
+	h2 {
+		color : blue;
+		span {
+			color : black;
+		}
+	}
+}
